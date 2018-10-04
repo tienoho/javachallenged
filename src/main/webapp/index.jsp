@@ -11,7 +11,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Simple Sidebar - Start Bootstrap Template</title>
+<title>JAVA CHALLENGED</title>
 
 <!-- Bootstrap core CSS -->
 <link href="/resources/vendor/bootstrap/css/bootstrap.min.css"
@@ -30,10 +30,8 @@
 		<div id="sidebar-wrapper">
 			<ul class="sidebar-nav">
 				<li class="sidebar-brand"><a href="#" class="tablink"
-					onclick="openCity(event, 'Dashboard')">TỔNG QUAN</a></li>
-				<li><a href="#menu-toggle1" class="btn btn-secondary"
-					id="menu-toggle1">ẨN MENU</a></li>
-				<li><a href="#" class="tablink" onclick="openCity(event, 'S1')">Hướng
+					id="menu-dashboard" onclick="openCity(event, 'Dashboard')">TỔNG QUAN</a></li>
+				<li><a href="#" class="tablink" id="menu-S1" onclick="openCity(event, 'S1')">Hướng
 						dẫn upload java web lên heroku</a></li>
 
 			</ul>
@@ -43,22 +41,20 @@
 		<!-- Page Content -->
 		<div id="page-content-wrapper">
 			<div class="container-fluid">
-				<a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">ẨN
+				<a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">HIỆN/ẨN
 					MENU</a> <a href="https://tuanvumustache.com/"
 					class="btn btn-secondary">QUAY VỀ TUANVUMUSTACHE.COM</a> <br /> <br />
 				<div id="Dashboard" class="city" style="display: block;">
 					<h1>TỔNG QUAN</h1>
 					<p>Đây sẽ là nơi chưa các bài thực hành, hướng dẫn, và các
 						project của bản thân trong tương lai.</p>
-					<p>Các bạn có thể ghé qua github của mình để download về nhé.</p>
+					<p>Các bạn có thể ghé qua github https://github.com/MustacheTuanVu/javachallenged của mình để download về nhé.</p>
 				</div>
 
 				<div id="S1" class="city" style="display: none">
 					<h1>Hướng dẫn upload java web lên heroku</h1>
-					<p>
-						<code></code>
-
-					</p>
+					<p>Các bạn xem ở link sau: https://tuanvumustache.com/java/java-web/huong-dan-deploy-java-len-heroku</p>
+					<p>Github: https://github.com/MustacheTuanVu/javachallenged</p>
 				</div>
 			</div>
 		</div>
@@ -79,7 +75,13 @@
 		});
 	</script>
 	<script>
-		$("#menu-toggle1").click(function(e) {
+		$("#menu-S1").click(function(e) {
+			e.preventDefault();
+			$("#wrapper").toggleClass("toggled");
+		});
+	</script>
+	<script>
+		$("#menu-dashboard").click(function(e) {
 			e.preventDefault();
 			$("#wrapper").toggleClass("toggled");
 		});
