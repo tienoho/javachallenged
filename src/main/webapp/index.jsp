@@ -33,6 +33,8 @@
 			<ul class="sidebar-nav">
 				<li class="sidebar-brand"><a href="#" class="tablink"
 					onclick="openCity(event, 'Dashboard')">TỔNG QUAN</a></li>
+					<li><a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">HIỆN
+					ẨN MENU</a></li>
 				<li><a href="#" class="tablink" onclick="openCity(event, 'S1')">Hướng
 						dẫn upload java web lên heroku</a></li>
 
