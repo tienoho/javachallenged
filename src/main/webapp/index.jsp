@@ -15,11 +15,11 @@
 
 <!-- Bootstrap core CSS -->
 <link
-	href="/javachallenged/resources/vendor/bootstrap/css/bootstrap.min.css"
+	href="/resources/vendor/bootstrap/css/bootstrap.min.css"
 	rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="/javachallenged/resources/css/simple-sidebar.css"
+<link href="/resources/css/simple-sidebar.css"
 	rel="stylesheet">
 
 </head>
@@ -68,9 +68,9 @@
 	<!-- /#wrapper -->
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="/javachallenged/resources/vendor/jquery/jquery.min.js"></script>
+	<script src="/resources/vendor/jquery/jquery.min.js"></script>
 	<script
-		src="/javachallenged/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Menu Toggle Script -->
 	<script>
