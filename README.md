@@ -6,5 +6,5 @@ Vì sao có tên là javachallenged: Vì mình xem nó là một thử thách v�
 Wellcome to the java challenge
 
 ## Nội dung
-1. Noob
-        - Upload java webapp đầu tiên lên heroku
+1. Noob:
+* Upload java webapp đầu tiên lên heroku
