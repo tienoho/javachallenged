@@ -4,4 +4,114 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+	<servlet>
+   		<servlet-name>helloServlet</servlet-name>
+   		<servlet-class>servlet.lab1.HelloServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+    	<servlet-name>initParamServlet</servlet-name>
+    	<servlet-class>servlet.lab1.InitParamServlet</servlet-class>
+    	<init-param>
+        	<param-name>myname1</param-name>
+        	<param-value>tuanvu</param-value>
+    	</init-param>
+ 
+    	<init-param>
+        	<param-name>myname2</param-name>
+        	<param-value>tuanvumustache</param-value>
+    	</init-param>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AnnotationExampleServlet</servlet-name>
+		<display-name>AnnotationExampleServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.lab1.AnnotationExampleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AsteriskServlet</servlet-name>
+		<display-name>AsteriskServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.lab1.AsteriskServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ForwardDemoServlet</servlet-name>
+		<display-name>ForwardDemoServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.lab1.ForwardDemoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowMeServlet</servlet-name>
+		<display-name>ShowMeServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.lab1.ShowMeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>RedirectDemoServlet</servlet-name>
+		<display-name>RedirectDemoServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.lab1.RedirectDemoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<display-name>LoginServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.lab1.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UserInfoServlet</servlet-name>
+		<display-name>UserInfoServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.lab1.UserInfoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ExampleInfoServlet</servlet-name>
+		<display-name>ExampleInfoServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.lab1.ExampleInfoServlet</servlet-class>
+	</servlet>   
+ 
+	
+	<servlet-mapping>
+   		<servlet-name>helloServlet</servlet-name>
+   		<url-pattern>/hello</url-pattern>
+	</servlet-mapping> 
+	<servlet-mapping>
+    	<servlet-name>initParamServlet</servlet-name>
+    	<url-pattern>/initParam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AnnotationExampleServlet</servlet-name>
+		<url-pattern>/AnnotationExampleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AsteriskServlet</servlet-name>
+		<url-pattern>/AsteriskServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ForwardDemoServlet</servlet-name>
+		<url-pattern>/ForwardDemoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowMeServlet</servlet-name>
+		<url-pattern>/ShowMeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RedirectDemoServlet</servlet-name>
+		<url-pattern>/RedirectDemoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ExampleInfoServlet</servlet-name>
+		<url-pattern>/ExampleInfoServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>home.jsp</welcome-file>
+	</welcome-file-list>
 </web-app>
