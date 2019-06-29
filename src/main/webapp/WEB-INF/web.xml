@@ -37,7 +37,6 @@
         </init-param>
         <init-param>
             <param-name>serverName</param-name>
-<!--            <param-value>http://catalog.dhsptn.edu.vn:8443</param-value>-->
                        <param-value>https://viewpdf.herokuapp.com</param-value>
 <!--                       <param-value>https://ilink.dhsptn.edu.vn:8443</param-value>-->
         </init-param>
@@ -74,34 +73,10 @@
         <filter-name>CAS HttpServletRequest Wrapper Filter</filter-name>
         <url-pattern>/account</url-pattern>
     </filter-mapping>
-<!--    <servlet>-->
-<!--        <display-name>IPControl</display-name>-->
-<!--        <servlet-name>IPControl</servlet-name>-->
-<!--        <servlet-class>com.sad.control.IPControl</servlet-class>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>IPControl</servlet-name>-->
-<!--        <url-pattern>/IPControl</url-pattern>-->
-<!--    </servlet-mapping>-->
-
-<!--    <servlet>-->
-<!--        <display-name>DriverControl</display-name>-->
-<!--        <servlet-name>DriverControl</servlet-name>-->
-<!--        <servlet-class>com.sad.control.DriverControl</servlet-class>-->
-<!--    </servlet>-->
-
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>DriverControl</servlet-name>-->
-<!--        <url-pattern>/driver</url-pattern>-->
-<!--    </servlet-mapping>-->
 
     <welcome-file-list>
         <welcome-file>file</welcome-file>
     </welcome-file-list>
-
-<!--    <welcome-file-list>-->
-<!--        <welcome-file>driver</welcome-file>-->
-<!--    </welcome-file-list>-->
 
 
 </web-app>

@@ -8,7 +8,7 @@ import java.util.Objects;
 
 public class CheckIp {
 
-    public static final String PATH = "/exlibris/apache-tomcat-8.5.23/webapps/ebook/ipaddress.txt";
+    public static final String PATH = "/exlibris/apache-tomcat-8.5.23/webapps/View/ipaddress.txt";
 
     public boolean checkIp(String ip, String ips) throws IOException {
         return ips == null || Objects.equals(ips, "") || ips.contains(ip) || ips.contains(getIpLocal(ip));
